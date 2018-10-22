@@ -26,6 +26,7 @@ public class Practice06Test {
 	
 	public boolean isPalindrome(String item) {
 		clearData();
+		
 		for (int i = 0; i < item.length(); i++) {
 			stack.push(item.substring(i, i+1));
 			queue.enqueue(item.substring(i, i+1));
